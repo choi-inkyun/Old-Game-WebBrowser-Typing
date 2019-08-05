@@ -1,0 +1,250 @@
+[Bootstrap]
+SetupTitle=설치
+SetupText=파일 복사 중... 기다리십시오.
+CabFile=최인균 자작 프로그램.CAB
+Spawn=Setup1.exe
+Uninstal=st6unst.exe
+TmpDir=msftqws.pdw
+Cabs=1
+
+[Bootstrap Files]
+File1=@VB6STKIT.DLL,$(WinSysPathSysFile),,,1/26/99 12:00:00 AM,101888,6.0.84.50
+File2=@COMCAT.DLL,$(WinSysPathSysFile),$(DLLSelfRegister),,5/31/98 12:00:00 AM,22288,4.71.1460.1
+File3=@VB6KO.DLL,$(WinSysPath),,$(Shared),7/22/98 12:00:00 AM,102160,5.0.81.69
+File4=@STDOLE2.TLB,$(WinSysPathSysFile),$(TLBRegister),,8/31/99 4:55:18 PM,17920,2.40.4277.1
+File5=@ASYCFILT.DLL,$(WinSysPathSysFile),,,8/31/99 4:55:18 PM,147728,2.40.4277.1
+File6=@OLEPRO32.DLL,$(WinSysPathSysFile),$(DLLSelfRegister),,12/1/99 8:00:00 AM,164112,5.0.4277.1
+File7=@OLEAUT32.DLL,$(WinSysPathSysFile),$(DLLSelfRegister),,12/1/99 8:00:00 AM,598288,2.40.4277.1
+File8=@MSVBVM60.DLL,$(WinSysPathSysFile),$(DLLSelfRegister),,5/10/99 12:00:00 AM,1384448,6.0.84.95
+
+[IconGroups]
+Group0=최인균 자작 프로그램
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[최인균 자작 프로그램]
+Icon1=""최인균 자작 프로그램.exe""
+Title1=최인균 자작 프로그램
+StartIn1=$(AppPath)
+
+[Setup]
+Title=최인균 자작 프로그램
+DefaultDir=$(ProgramFiles)\시작
+AppExe=최인균 자작 프로그램.exe
+AppToUninstall=최인균 자작 프로그램.exe
+
+[Setup1 Files]
+File1=@타자글.ZIP,$(AppPath),,,11/3/00 8:21:44 PM,53815,0.0.0.0
+File2=@back3.gif,$(AppPath),,,11/3/00 10:41:30 PM,16908,0.0.0.0
+File3=@선택비행기백.bmp,$(AppPath),,,11/3/00 8:17:06 PM,14894,0.0.0.0
+File4=@선택비행기흑.bmp,$(AppPath),,,11/3/00 8:17:22 PM,14894,0.0.0.0
+File5=@선택비행기백2.bmp,$(AppPath),,,11/3/00 8:20:02 PM,10854,0.0.0.0
+File6=@선택비행기흑2.bmp,$(AppPath),,,11/3/00 8:20:34 PM,10854,0.0.0.0
+File7=@SUN.ICO,$(AppPath),,,4/28/93 12:00:00 AM,766,0.0.0.0
+File8=@ROCKET.ICO,$(AppPath),,,4/28/93 12:00:00 AM,766,0.0.0.0
+File9=@KEYS03.ICO,$(AppPath),,,4/28/93 12:00:00 AM,766,0.0.0.0
+File10=@End.wav,$(AppPath),,,2/1/94 4:20:00 AM,11604,0.0.0.0
+File11=@HAND_3.ICO,$(AppPath),,,4/15/94 10:51:14 AM,766,0.0.0.0
+File12=@Yestrday.mid,$(AppPath),,,12/11/94 3:20:04 PM,10861,0.0.0.0
+File13=@Hero.mid,$(AppPath),,,12/31/94 3:00:36 PM,15936,0.0.0.0
+File14=@C3.bmp,$(AppPath),,,1/25/97 5:41:00 PM,3730,0.0.0.0
+File15=@31.MID,$(AppPath),,,6/12/97 8:25:56 AM,14134,0.0.0.0
+File16=@11.MID,$(AppPath),,,6/29/97 9:11:44 PM,35452,0.0.0.0
+File17=@THEME AS.WAV,$(AppPath),,,7/23/97 1:53:54 AM,4819,0.0.0.0
+File18=@THEME MI.WAV,$(AppPath),,,8/12/97 12:55:48 AM,2288,0.0.0.0
+File19=@THEME ME.WAV,$(AppPath),,,8/12/97 12:55:48 AM,1384,0.0.0.0
+File20=@THEME MA.WAV,$(AppPath),,,8/12/97 12:55:48 AM,2288,0.0.0.0
+File21=@Start.WAV,$(AppPath),,,1/20/98 7:54:30 PM,93484,0.0.0.0
+File22=@배경.bmp,$(AppPath),,,5/6/98 7:14:56 PM,594998,0.0.0.0
+File23=@우주 가득 찬 휴지통.ico,$(AppPath),,,6/26/98 11:01:02 AM,10134,0.0.0.0
+File24=@wiz.ico,$(AppPath),,,9/8/98 1:21:38 AM,4710,0.0.0.0
+File25=@2-02 Ahead on Our Way Midi.mid,$(AppPath),,,2/23/99 10:39:24 AM,7237,0.0.0.0
+File26=@shoot.bmp,$(AppPath),,,3/25/99 12:08:18 AM,1560,0.0.0.0
+File27=@qorud.mid,$(AppPath),,,6/15/99 11:05:50 PM,25480,0.0.0.0
+File28=@invpowerdown.wav,$(AppPath),,,6/22/99 11:05:40 PM,336184,0.0.0.0
+File29=@altkdlf.wav,$(AppPath),,,6/22/99 11:05:40 PM,354556,0.0.0.0
+File30=@12.MID,$(AppPath),,,7/4/99 11:23:00 AM,9022,0.0.0.0
+File31=@34.MID,$(AppPath),,,8/6/99 3:37:22 AM,7472,0.0.0.0
+File32=@TOHEART.MID,$(AppPath),,,12/20/99 12:26:16 AM,23552,0.0.0.0
+File33=@타자 연습 V1.0.frm,$(AppPath),,,2/28/00 5:07:02 PM,3565,0.0.0.0
+File34=@카탈로그.mid,$(AppPath),,,3/7/00 12:00:02 AM,6859,0.0.0.0
+File35=@타자연습 V1.0.frm,$(AppPath),,,3/7/00 7:15:42 PM,4379,0.0.0.0
+File36=@타자 연습v1.0  짧은글.frm,$(AppPath),,,3/8/00 5:55:10 PM,26408,0.0.0.0
+File37=@타자 연습 V1.0 5.log,$(AppPath),,,3/9/00 11:19:02 PM,62,0.0.0.0
+File38=@타자 연습 V1.0 8.log,$(AppPath),,,3/9/00 11:19:08 PM,74,0.0.0.0
+File39=@타자 연습 V1.0.log,$(AppPath),,,3/15/00 6:24:16 PM,84,0.0.0.0
+File40=@타자 연습v1.0  짧은글.log,$(AppPath),,,3/15/00 6:24:32 PM,83,0.0.0.0
+File41=@타자연습 V1.0.log,$(AppPath),,,3/15/00 6:24:44 PM,84,0.0.0.0
+File42=@타자 연습 V1.0 loag.OBJ,$(AppPath),,,3/15/00 7:39:48 PM,3205,0.0.0.0
+File43=@타자연습 V1.0 main.OBJ,$(AppPath),,,3/15/00 7:40:00 PM,11358,0.0.0.0
+File44=@타자.vbp,$(AppPath),,,3/16/00 7:38:50 PM,881,1.0.0.0
+File45=@타자.!!.vbw,$(AppPath),,,3/24/00 5:25:42 PM,560,0.0.0.0
+File46=@타자.!!.PDM,$(AppPath),,,3/24/00 5:38:20 PM,10184,0.0.0.0
+File47=@인균이의 타자연습.PDM,$(AppPath),,,6/10/00 8:56:52 PM,12362,0.0.0.0
+File48=@C1.bmp,$(AppPath),,,7/30/00 8:13:28 AM,3710,0.0.0.0
+File49=@C4.bmp,$(AppPath),,,7/30/00 8:14:36 AM,3678,0.0.0.0
+File50=@C5.bmp,$(AppPath),,,7/30/00 8:15:08 AM,3522,0.0.0.0
+File51=@C6.bmp,$(AppPath),,,7/30/00 8:15:26 AM,3366,0.0.0.0
+File52=@C7.bmp,$(AppPath),,,7/30/00 8:15:52 AM,3654,0.0.0.0
+File53=@C8.bmp,$(AppPath),,,7/30/00 8:16:14 AM,3286,0.0.0.0
+File54=@C9.bmp,$(AppPath),,,7/30/00 8:16:36 AM,3334,0.0.0.0
+File55=@C10.bmp,$(AppPath),,,7/30/00 8:16:52 AM,3190,0.0.0.0
+File56=@C11.bmp,$(AppPath),,,7/30/00 8:17:18 AM,3094,0.0.0.0
+File57=@C12.bmp,$(AppPath),,,8/2/00 11:04:18 AM,3334,0.0.0.0
+File58=@타자 연습 V1.0 7.log,$(AppPath),,,8/20/00 5:20:14 PM,158,0.0.0.0
+File59=@타자연습 V1.0 main.log,$(AppPath),,,8/20/00 5:20:16 PM,895,0.0.0.0
+File60=@타자 연습v1.0  3.log,$(AppPath),,,8/20/00 5:20:16 PM,77,0.0.0.0
+File61=@타자 연습 V1.0 loag.log,$(AppPath),,,8/20/00 5:20:16 PM,78,0.0.0.0
+File62=@타자.vbw,$(AppPath),,,8/20/00 5:20:18 PM,514,0.0.0.0
+File63=@Garshion.jpg,$(AppPath),,,9/26/00 8:06:00 PM,20159,0.0.0.0
+File64=@미사일백.bmp,$(AppPath),,,11/3/00 8:14:24 PM,3126,0.0.0.0
+File65=@배경그림.bmp,$(AppPath),,,10/13/00 6:12:48 PM,1781814,0.0.0.0
+File66=@위비행기_백.bmp,$(AppPath),,,10/13/00 6:14:20 PM,8910,0.0.0.0
+File67=@오른쪽비행기_백.bmp,$(AppPath),,,10/13/00 6:16:12 PM,8910,0.0.0.0
+File68=@왼쪽비행기_백.bmp,$(AppPath),,,10/13/00 6:16:26 PM,8910,0.0.0.0
+File69=@위비행기_흑.bmp,$(AppPath),,,10/13/00 6:16:40 PM,8910,0.0.0.0
+File70=@오른쪽비행기_흑.bmp,$(AppPath),,,10/13/00 6:16:56 PM,8910,0.0.0.0
+File71=@왼쪽비행기_흑.bmp,$(AppPath),,,10/13/00 6:17:12 PM,8910,0.0.0.0
+File72=@아래비행기_백.bmp,$(AppPath),,,10/13/00 6:17:24 PM,8910,0.0.0.0
+File73=@아래비행기_흑.bmp,$(AppPath),,,10/13/00 6:17:44 PM,8910,0.0.0.0
+File74=@airlogo.bmp,$(AppPath),,,10/13/00 6:18:20 PM,921654,0.0.0.0
+File75=@아래비행기_백_Sprite.bmp,$(AppPath),,,10/17/00 5:16:56 PM,8910,0.0.0.0
+File76=@아래비행기_백_Mask.bmp,$(AppPath),,,10/17/00 5:16:56 PM,8910,0.0.0.0
+File77=@아래비행기_흑_Sprite.bmp,$(AppPath),,,10/17/00 5:16:58 PM,8910,0.0.0.0
+File78=@아래비행기_흑_Mask.bmp,$(AppPath),,,10/17/00 5:16:58 PM,8910,0.0.0.0
+File79=@미사일흑.bmp,$(AppPath),,,11/3/00 8:14:16 PM,3126,0.0.0.0
+File80=@게임.frm,$(AppPath),,,10/29/00 11:56:28 AM,964,0.0.0.0
+File81=@start.frx,$(AppPath),,,10/29/00 2:24:06 PM,230466,0.0.0.0
+File82=@start.frm,$(AppPath),,,10/29/00 2:24:06 PM,1584,0.0.0.0
+File83=@xkwk.txt,$(AppPath),,,10/29/00 2:55:34 PM,140,0.0.0.0
+File84=@타자 연습 V1.0 loag.frx,$(AppPath),,,10/29/00 3:21:42 PM,778,0.0.0.0
+File85=@타자연습 V1.0 2.frx,$(AppPath),,,10/29/00 3:21:44 PM,778,0.0.0.0
+File86=@타자연습 V1.0 2.frm,$(AppPath),,,10/29/00 3:21:44 PM,533,0.0.0.0
+File87=@타자 연습 V1.0 loag.frm,$(AppPath),,,10/29/00 3:21:44 PM,4424,0.0.0.0
+File88=@타자 연습 V1.0 1.frx,$(AppPath),,,10/29/00 10:20:40 PM,778,0.0.0.0
+File89=@타자 연습 V1.0 1.frm,$(AppPath),,,10/29/00 10:20:42 PM,49276,0.0.0.0
+File90=@타자 연습 V1.0 8.frx,$(AppPath),,,10/29/00 10:21:44 PM,778,0.0.0.0
+File91=@타자 연습 V1.0 7.frx,$(AppPath),,,10/29/00 10:21:44 PM,778,0.0.0.0
+File92=@타자 연습 V1.0 8.frm,$(AppPath),,,10/29/00 10:21:46 PM,44945,0.0.0.0
+File93=@타자 연습 V1.0 7.frm,$(AppPath),,,10/29/00 10:21:46 PM,39184,0.0.0.0
+File94=@타자 연습 V1.0 5.frx,$(AppPath),,,10/29/00 10:24:08 PM,778,0.0.0.0
+File95=@타자 연습 V1.0 4.frx,$(AppPath),,,10/29/00 10:24:08 PM,778,0.0.0.0
+File96=@타자 연습 V1.0 5.frm,$(AppPath),,,10/29/00 10:24:10 PM,81879,0.0.0.0
+File97=@타자 연습 V1.0 4.frm,$(AppPath),,,10/29/00 10:24:10 PM,80789,0.0.0.0
+File98=@타자 연습 V1.0 9.frx,$(AppPath),,,10/30/00 11:00:42 PM,14278,0.0.0.0
+File99=@타자 연습 V1.0 9.frm,$(AppPath),,,10/30/00 11:00:44 PM,55162,0.0.0.0
+File100=@게임3.frx,$(AppPath),,,11/3/00 9:03:58 PM,923222,0.0.0.0
+File101=@게임3.frm,$(AppPath),,,11/3/00 9:04:00 PM,6968,0.0.0.0
+File102=@Nice.exe,$(AppPath),,,11/3/00 11:40:22 PM,307200,1.0.0.0
+File103=@흰색m.bmp,$(AppPath),,,10/31/00 5:57:12 PM,1854,0.0.0.0
+File104=@까만색M.bmp,$(AppPath),,,10/31/00 5:57:18 PM,1854,0.0.0.0
+File105=@Maximum.gif,$(AppPath),,,10/31/00 7:29:54 PM,1267797,0.0.0.0
+File106=@흰C1.bmp,$(AppPath),,,10/31/00 10:02:42 PM,3710,0.0.0.0
+File107=@C2.bmp,$(AppPath),,,10/31/00 10:02:58 PM,3470,0.0.0.0
+File108=@흰C2.bmp,$(AppPath),,,10/31/00 10:03:08 PM,3470,0.0.0.0
+File109=@흰C4.bmp,$(AppPath),,,11/3/00 8:13:16 PM,3678,0.0.0.0
+File110=@흰C5.bmp,$(AppPath),,,10/31/00 10:03:52 PM,3522,0.0.0.0
+File111=@흰C6.bmp,$(AppPath),,,10/31/00 10:04:02 PM,3366,0.0.0.0
+File112=@흰C7.bmp,$(AppPath),,,10/31/00 10:04:14 PM,3654,0.0.0.0
+File113=@흰C8.bmp,$(AppPath),,,10/31/00 10:04:24 PM,3286,0.0.0.0
+File114=@흰C9.bmp,$(AppPath),,,10/31/00 10:04:34 PM,3334,0.0.0.0
+File115=@흰C10.bmp,$(AppPath),,,10/31/00 10:04:44 PM,3190,0.0.0.0
+File116=@흰C11.bmp,$(AppPath),,,10/31/00 10:04:56 PM,3094,0.0.0.0
+File117=@흰C12.bmp,$(AppPath),,,10/31/00 10:05:08 PM,3334,0.0.0.0
+File118=@MSSCCPRJ.SCC,$(AppPath),,,11/1/00 12:06:48 AM,648,0.0.0.0
+File119=@타자 연습v1.0  3.frx,$(AppPath),,,11/1/00 8:19:12 AM,778,0.0.0.0
+File120=@타자 연습v1.0  3.frm,$(AppPath),,,11/1/00 8:19:14 AM,28868,0.0.0.0
+File121=@제작.frm,$(AppPath),,,11/1/00 8:19:14 AM,2250,0.0.0.0
+File122=@anti_left1.bmp,$(AppPath),,,11/1/00 3:49:44 PM,14894,0.0.0.0
+File123=@anti_left2.bmp,$(AppPath),,,11/1/00 3:49:46 PM,14894,0.0.0.0
+File124=@anti_right1.bmp,$(AppPath),,,11/1/00 3:49:50 PM,14894,0.0.0.0
+File125=@anti_right2.bmp,$(AppPath),,,11/1/00 3:49:52 PM,14894,0.0.0.0
+File126=@explosion.bmp,$(AppPath),,,11/1/00 3:50:12 PM,14894,0.0.0.0
+File127=@explosion2.bmp,$(AppPath),,,11/1/00 3:50:14 PM,14894,0.0.0.0
+File128=@적비행기흑.bmp,$(AppPath),,,11/1/00 8:31:32 PM,10854,0.0.0.0
+File129=@적비행기백.bmp,$(AppPath),,,11/1/00 8:32:18 PM,10854,0.0.0.0
+File130=@보스흑.bmp,$(AppPath),,,11/3/00 9:02:24 PM,8910,0.0.0.0
+File131=@보스백.bmp,$(AppPath),,,11/3/00 9:02:14 PM,8166,0.0.0.0
+File132=@폭발백.bmp,$(AppPath),,,11/1/00 9:07:08 PM,9294,0.0.0.0
+File133=@폭발흑.bmp,$(AppPath),,,11/1/00 9:07:24 PM,9294,0.0.0.0
+File134=@애니고...frx,$(AppPath),,,11/1/00 10:25:00 PM,7888,0.0.0.0
+File135=@애니고...frm,$(AppPath),,,11/1/00 10:25:02 PM,16714,0.0.0.0
+File136=@게임.bas,$(AppPath),,,11/2/00 6:02:20 PM,3258,0.0.0.0
+File137=@게임프로젝트.vbp,$(AppPath),,,11/3/00 9:04:00 PM,1044,1.0.0.0
+File138=@적미사일백.bmp,$(AppPath),,,11/3/00 8:52:38 PM,2814,0.0.0.0
+File139=@적미사일흑.bmp,$(AppPath),,,11/3/00 8:52:28 PM,2814,0.0.0.0
+File140=@Enemy.bmp,$(AppPath),,,11/2/00 8:56:12 PM,3574,0.0.0.0
+File141=@Enemy백.bmp,$(AppPath),,,11/2/00 8:57:06 PM,3574,0.0.0.0
+File142=@shoot백.bmp,$(AppPath),,,11/2/00 8:57:28 PM,1558,0.0.0.0
+File143=@air백.bmp,$(AppPath),,,11/2/00 9:01:20 PM,4054,0.0.0.0
+File144=@air.bmp,$(AppPath),,,11/2/00 9:01:28 PM,4054,0.0.0.0
+File145=@game.txt,$(AppPath),,,11/2/00 11:24:34 PM,132,0.0.0.0
+File146=@타자연습 V1.0 main.frx,$(AppPath),,,11/3/00 9:26:02 PM,105150,0.0.0.0
+File147=@게임2.frx,$(AppPath),,,11/3/00 12:21:30 AM,93426,0.0.0.0
+File148=@타자연습 V1.0 main.frm,$(AppPath),,,11/3/00 9:26:04 PM,28550,0.0.0.0
+File149=@게임2.frm,$(AppPath),,,11/3/00 12:21:32 AM,9504,0.0.0.0
+File150=@boss1.bmp,$(AppPath),,,11/3/00 4:44:22 PM,43254,0.0.0.0
+File151=@back.bmp,$(AppPath),,,11/3/00 4:46:40 PM,1920054,0.0.0.0
+File152=@boss2.bmp,$(AppPath),,,11/3/00 4:50:18 PM,41814,0.0.0.0
+File153=@흰C3.bmp,$(AppPath),,,11/3/00 4:52:44 PM,3730,0.0.0.0
+File154=@게임4.frx,$(AppPath),,,11/3/00 5:19:22 PM,12790,0.0.0.0
+File155=@게임4.frm,$(AppPath),,,11/3/00 5:19:24 PM,3613,0.0.0.0
+File156=@게임1.frx,$(AppPath),,,11/4/00 12:34:36 AM,94392,0.0.0.0
+File157=@게임1.frm,$(AppPath),,,11/4/00 12:34:38 AM,47091,0.0.0.0
+File158=@frmbrowser.frx,$(AppPath),,,11/3/00 5:31:52 PM,41976,0.0.0.0
+File159=@frmbrowser.frm,$(AppPath),,,11/3/00 5:31:54 PM,10036,0.0.0.0
+File160=@애니고 프로그램.vbg,$(AppPath),,,11/4/00 12:34:40 AM,117,0.0.0.0
+File161=@인균이의 타자연습.exe,$(AppPath),,,11/3/00 11:38:26 PM,790528,1.0.0.12
+File162=@Nice,$(AppPath),,,11/3/00 5:34:28 PM,307200,1.0.0.0
+File163=@타자 연습 V1.0 6.frx,$(AppPath),,,11/3/00 5:34:30 PM,778,0.0.0.0
+File164=@Nice.vbw,$(AppPath),,,11/4/00 12:34:56 AM,107,0.0.0.0
+File165=@Nice.vbp,$(AppPath),,,11/4/00 12:05:52 AM,2402,1.0.0.0
+File166=@타자 연습 V1.0 6.frm,$(AppPath),,,11/3/00 5:34:32 PM,16846,0.0.0.0
+File167=@인균이의 타자연습.vbw,$(AppPath),,,11/4/00 12:34:56 AM,549,0.0.0.0
+File168=@인균이의 타자연습.vbp,$(AppPath),,,11/4/00 12:05:50 AM,1137,1.0.0.13
+File169=@애니고...vbw,$(AppPath),,,11/4/00 12:34:56 AM,104,0.0.0.0
+File170=@애니고...vbp,$(AppPath),,,11/3/00 7:57:30 PM,860,1.0.0.0
+File171=@게임프로젝트.vbw,$(AppPath),,,11/4/00 12:34:56 AM,328,0.0.0.0
+File172=@게임.exe,$(AppPath),,,11/4/00 12:34:50 AM,1261568,1.0.0.0
+File173=@GifPlay.ocx,$(WinSysPath),$(DLLSelfRegister),$(Shared),3/5/98 6:59:00 PM,36352,1.0.0.1
+File174=@MSCMCKO.DLL,$(WinSysPath),,$(Shared),7/22/98 12:00:00 AM,124416,6.0.81.63
+File175=@MSCOMCTL.OCX,$(WinSysPath),$(DLLSelfRegister),$(Shared),10/10/00 8:21:00 PM,1062704,6.0.81.77
+File176=@최인균 자작 프로그램.exe,$(AppPath),,,11/3/00 11:37:06 PM,49152,1.0.0.0
+
+; 다음 행은 모든 설치 디스켓에서 이 파일을 사용자 정의하는 데 필요한 여분의 공간을 얻기 위해 삭제될 수 있습니다.
+; 
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+; XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
