@@ -1,9 +1,7 @@
 # Old-Game-WebBrowser-Typing
-2000년에 개발한 웹 브라우져, 슈팅 게임, 타자 연습 프로그램
-
-# Overview
-한국애니메이션고등학교 입학 시험에 제출했던 프로그램 입니다.<br>
-개발은 혼자서 하였고, Visual Basic 6.0을 사용하였습니다.<br>
+중학교 3학년 재학 중인 2000년에 개발한 웹 브라우져, 슈팅 게임, 타자 연습 프로그램 입니다.
+혼재 개발 하였으며, 한국애니메이션고등학교 입학 시험에 제출하기 위해 만들었습니다.<br>
+Visual Basic 6.0을 사용하였습니다.<br>
 
 # ScreenShot
 ![ScreenShot](https://github.com/choi-inkyun/Old-Game-WebBrowser-Typing/blob/master/screentshot/screenshot.jpg)
